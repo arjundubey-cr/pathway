@@ -21,6 +21,7 @@ html, body{
 }
 
 .main-nav ul{
+    margin: auto;
     align-items: center;
 }
 .main-nav li{
@@ -28,7 +29,7 @@ html, body{
     list-style: none;
     font-size: 1.5em;
     padding: .45em;
-
+    border-bottom: aqua;
 }
 
 .main-nav a{
