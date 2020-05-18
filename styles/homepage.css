@@ -20,6 +20,9 @@ html, body{
     text-align: center;
 }
 
+.main-nav ul{
+    align-items: center;
+}
 .main-nav li{
     display: inline-block;
     list-style: none;
