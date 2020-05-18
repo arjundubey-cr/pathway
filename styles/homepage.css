@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     box-sizing: border-box;
     font-family: Raleway;
@@ -21,8 +22,8 @@ html, body{
 }
 
 .main-nav ul{
-    margin: auto;
-    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 .main-nav li{
     display: inline-block;
@@ -30,6 +31,7 @@ html, body{
     font-size: 1.5em;
     padding: .45em;
     border-bottom: aqua;
+    align-content: space-between;
 }
 
 .main-nav a{
@@ -40,9 +42,8 @@ html, body{
 }
 
 .main-nav a:hover{
-    background-color: pink;
+    background-color: rgb(124, 167, 196);
 }
-
 
 .home-page-subheading{
     font-weight: 600;
@@ -64,4 +65,8 @@ html, body{
     margin: 0 auto;
     font-size: 1.3em;
     padding: 1em;
+}
+
+.content .homecontent{
+    font-family: 'Lato', sans-serif;
 }
