@@ -1,61 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import 
 *{
     box-sizing: border-box;
-    font-family: Raleway;
+    font-family: Lato;
     color: #777;
 }
 
-html, body{
-    margin: 0;
-    padding: 0;
-}
-
-.home-page-heading{
-    padding: 3px;
-    font-size: 80px;
-    text-align: center;
-    color: black;
-    border-bottom: 3px dotted saddlebrown;
-}
-.main-nav{
-    text-align: center;
-}
-
-.main-nav li{
-    display: inline-block;
-    list-style: none;
-    font-size: 1.5em;
-    padding: .45em;
-
-}
-
-.main-nav a{
-    text-decoration: none;
-    padding: .45em;
-    color: black;
-    margin: 3px;
-}
-
-.main-nav a:hover{
-    background-color: pink;
-}
-
-.home-page-subheading{
-    font-weight: 600;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2em;
-    margin: 0 auto;
-    padding: 0.25em;
-    padding-left: .5em;
-    padding-right: .5em;
-    max-width: 1000px;
-}
-
-.content{
-    max-width: 900px;
-    text-align: center;
-    text-align: justify;
-    margin: 0 auto;
-    font-size: 2rem;
-}
