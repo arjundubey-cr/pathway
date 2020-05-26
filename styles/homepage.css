@@ -10,20 +10,18 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #63b8a7;
-}
-
-@media only screen and (max-width: 600px) {
-  .main-nav {
-    display: inline-block;
-  }
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .home-page-heading {
   font-size: 80px;
   color: black;
   margin-top: 0px;
-  padding: 5px;
+  padding: 0.1em;
+  text-align: center;
+  margin: 0 auto;
   /*border-bottom: 3px dotted saddlebrown;*/
 }
 .main-nav ul {
@@ -43,9 +41,10 @@ body {
     display: inline-block;
   text-decoration: none;
   padding: 0.45em;
-  color: whitesmoke;
+  color: black;
   margin: 3px;
-}
+  /*background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF 51%, #ECE9E6 100%);*/}
+
 .main-nav{
     text-align: center;
 }
@@ -56,21 +55,27 @@ h1 {
   margin: 0;
 }
 .main-nav a:hover {
-  background-color: pink;
+  color: #777;
 }
 
 .content {
   max-width: 900px;
-  text-align: center;
-  text-align: left;
+  text-align:left;
   margin: 0 auto;
-  font-size: 1.5rem;
 }
 
 .home-page-image {
     display: flex;
     margin: 0 auto;
-    max-width: 80%;
-    width: 100%;
+    max-width: 550px;
+    width: 90%;
     height: auto;
+}
+
+div .section-heading{
+  text-align: center;
+}
+
+.content .home-page-subheading{
+  text-align: center;
 }
