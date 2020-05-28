@@ -33,13 +33,14 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .main-nav li {
     display: inline;
     list-style: none;
     font-size: 1.5em;
 }
 .main-nav a {
-    display: inline-block;
+  display: inline-block;
   text-decoration: none;
   padding: 0.45em;
   color: black;
@@ -48,6 +49,9 @@ body {
 
 .main-nav{
     text-align: center;
+}
+.main-nav a:hover{
+  text-decoration: none;
 }
 
 
@@ -84,4 +88,8 @@ div .section-heading{
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
+}
+
+a:hover{
+  text-decoration: none;
 }
