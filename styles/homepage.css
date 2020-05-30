@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto|Yeseva+One&display=swap');
 *,
 *::before,
 *::after {
@@ -19,12 +18,13 @@ body {
 }
 
 .home-page-heading {
-  font-size: 80px;
+  font-size: 4.5em;
   color: black;
   margin-top: 0px;
   padding: 0.1em;
   text-align: center;
   margin: 0 auto;
+  font-family: 'Yeseva One', cursive;
   /*border-bottom: 3px dotted saddlebrown;*/
 }
 .main-nav ul {
@@ -94,4 +94,13 @@ div .section-heading{
 
 a:hover{
   text-decoration: none;
+}
+
+.content .resources-list ul{
+  list-style: none;
+  display: flex;
+}
+
+.content .resources-list ul li{
+  padding: 0.45em;
 }
