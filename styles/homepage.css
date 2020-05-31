@@ -16,7 +16,7 @@ body {
   padding: 0;
   background: #abbaab;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ffffff, #abbbab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .home-page-heading {
@@ -29,6 +29,13 @@ body {
   font-family: 'Yeseva One', cursive;
   /*border-bottom: 3px dotted saddlebrown;*/
 }
+@media screen and (max-width: 375px) {
+  .home-page-heading{
+    font-size: 4em;
+  }
+}
+
+
 .main-nav ul {
   margin: 0;
   padding: 0;
@@ -68,7 +75,7 @@ h1 {
 }
 
 .content {
-  max-width: 900px;
+  max-width: 1080px;
   text-align:left;
   margin: 0 auto;
 }
@@ -81,9 +88,6 @@ h1 {
     height: auto;
 }
 
-div .section-heading{
-  text-align: center;
-}
 
 .content .home-page-subheading{
   margin: 0.45vw;
@@ -91,18 +95,45 @@ div .section-heading{
   color: #2B2B52;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
 }
 
 a:hover{
   text-decoration: none;
 }
 
-.content .resources-list ul{
-  list-style: none;
-  display: flex;
+.developer-roadmaps{
+  padding: 2em 0 0 0;
 }
 
-.content .resources-list ul li{
-  padding: 0.45em;
+.cardheading{
+    min-height: 114px;
+    box-shadow: rgba(0, 0, 0, .62) 0px 5px 10px;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    min-width: 1px;
+    max-width: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    opacity: 1;
+    flex: 1 1 0%;
+    background: white;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 20px;
 }
+
+.innercontent{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(16, 16, 16);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+
