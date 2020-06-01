@@ -159,14 +159,18 @@ a:hover{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
+  .card-img-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
       .card-img-top {
         width: 100%;
-        height: 20vh;
+        height: 55vh;
         object-fit: cover;
       }
 }
