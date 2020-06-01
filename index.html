@@ -1,66 +1,153 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
 
-    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-
+    <link
+      rel="stylesheet"
+      href="bootstrap-4.5.0-dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
 
     <title>PathWay - Home</title>
-    <link rel="stylesheet" href="styles/homepage.css">
-</head>
+    <link rel="stylesheet" href="styles/homepage.css" />
+  </head>
 
-<body>
+  <body>
     <header class="main-header">
-        <nav class="main-nav">
-            <ul>
-                <li><a href="index.html" class="btn-grad">Home</a></li>
-                <li><a href="htmls/about.html" class="btn-grad">About</a></li>
-                <li><a href="faq.html" class="btn-grad">FAQs</a></li>
-            </ul>
-        </nav>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="btn-grad">Home</a></li>
+          <li><a href="htmls/about.html" class="btn-grad">About</a></li>
+          <li><a href="faq.html" class="btn-grad">FAQs</a></li>
+        </ul>
+      </nav>
     </header>
-    <img src="./images/rsz_untitled_design.png" class="home-page-image">
+    <img src="./images/rsz_untitled_design.png" class="home-page-image" />
 
     <h1 class="home-page-heading">PathWay</h1>
 
-    <div class="content container">
-        <h3 class="home-page-subheading">Online collections of roadmaps, articles, resources for Engineering Students
-        </h3>  
+    <div class="content">
+      <h3 class="home-page-subheading">
+        Collections of roadmaps, articles, resources for Engineering Students
+      </h3>
     </div>
-    <div class="container">
-        <div class="row developer-roadmaps">
-            <div class="col-md-12 col-xs-12 col-lg-5 col-xl-4">
-                <a href="#" target="_self" class="cardheading">
-                    <h3 class="innercontent">
-                        Frontend
-                    </h3>
-                    <p class="info">
-                        Guide and resources to learn Frontend Developement
-                    </p>
+    <section>
+    <div class="container" id="learningpath">
+        <h3 class="section-heading">
+            Learning Paths
+        </h3>
+      <div class="row developer-roadmaps">
+        <div class="col-md-8 col-xs-12 col-lg-5 col-xl-4 tile">
+            <a href="#" target="_self" class="cardcontent">
+              <h3 class="innercontent">
+                Android App Developer
+              </h3>
+              <p class="info">
+                Resources to learn Android Developement
+              </p>
+            </a>
+        </div>
+        <div class="col-md-8 col-xs-12 col-lg-5 col-xl-4 tile">
+          <a href="#" target="_self" class="cardcontent">
+            <h3 class="innercontent">
+              Frontend Developer
+            </h3>
+            <p class="info">
+              Resources to learn Frontend Developement
+            </p>
+          </a>
+        </div>
+        <div class="col-md-8 col-xs-12 col-lg-5 col-xl-4 tile">
+            <a href="#" target="_self" class="cardcontent">
+              <h3 class="innercontent">
+                Machine Learning Engineer
+              </h3>
+              <p class="info">
+                Resources to learn Machine Learning
+              </p>
+            </a>
+          </div>
+      </div>
+      <div id="checkout-btn">
+        <button type="button" class="btn-outline-dark btn-block checkout"><a href="#" class="checkout"> Check Out all the Learning Path </a></button>
+      </div>
+    </div>
+    </section>
+
+    <section>
+        <div class="container" id="learningpath">
+            <h3 class="section-heading">
+                Subject Wise Resources
+            </h3>
+          <div class="row developer-roadmaps">
+            <div class="col-md-8 col-xs-12 col-lg-5 col-xl-4 tile">
+                <a href="#" target="_self" class="cardcontent">
+                  <h3 class="innercontent">
+                    Engineering Physics
+                  </h3>
+                  <p class="info">
+                    Resources to learn Engineering Physics
+                  </p>
                 </a>
             </div>
+            <div class="col-md-8 col-xs-12 col-lg-5 col-xl-4 tile">
+              <a href="#" target="_self" class="cardcontent">
+                <h3 class="innercontent">
+                  Data Structures and Algorithm
+                </h3>
+                <p class="info">
+                  Resources to learn DS&amp;A
+                </p>
+              </a>
+            </div>
+            <div class="col-md-8 col-xs-12 col-lg-5 col-xl-4 tile">
+                <a href="#" target="_self" class="cardcontent">
+                  <h3 class="innercontent">
+                    Machine Learning Engineer
+                  </h3>
+                  <p class="info">
+                    Resources to learn Machine Learning
+                  </p>
+                </a>
+              </div>
+          </div>
+          <div id="checkout-btn">
+            <button type="button" class="btn-outline-dark btn-block checkout"><a href="#" class="checkout"> Check Out all the Subject Wise Resources</a></button>
+          </div>    
         </div>
-    </div>
+        </section>
+
+    <img src="" height="100" />
     <!-- JAVASCRIPT LOADING STARTS FROM HERE -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
