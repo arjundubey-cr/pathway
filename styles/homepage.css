@@ -94,7 +94,6 @@ h1 {
   display: block;
   margin: 10px 0 10px 0;
   padding: 0px;
-  background-color: yellow;
 }
 a:hover{
   text-decoration: none;
@@ -136,6 +135,9 @@ a:hover{
   .content .home-page-subheading{
     font-size: 1.2em;
   }
+  .tile{
+    margin: 5px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -150,18 +152,26 @@ a:hover{
   }
 }
 
-/* Medium devices (landscape tablets, 768px and below) */
-@media only screen and (max-width: 768px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .developer-roadmaps{
+    justify-items: center;
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 992px) {
+  
   .tile{
     margin: 5px;
   }
 }
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .card-img-top {
     width: 100%;
-    height: 40vh;
+    height: 20vh;
     object-fit: cover;
   }
 }
