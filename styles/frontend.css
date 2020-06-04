@@ -43,6 +43,7 @@ body {
   
   .main-nav{
       text-align: center;
+      position: relative;
   }
   .main-nav a:hover{
     text-decoration: none;
@@ -70,5 +71,22 @@ body {
   }
 
   .resource-heading{
-    margin-top: 0px;
+    margin-top: 50px;
   }
+
+  .subheading-question{
+    margin-bottom: 1px;
+    margin-top: 40px;
+  }
+
+  .nav-pills .nav-link.active{
+    background-color: #e5bba7!important;
+  }
+
+  .nav-pills .nav-link{
+    color:white;
+    font-family: 'Raleway';
+    font-weight: 600;
+  }
+  
+

@@ -187,3 +187,24 @@ a:hover{
         object-fit: cover;
       }
 }
+
+.left-footer-description{
+  max-width: 400px;
+}
+
+.firstline ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.firstline{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstline ul li{
+  padding: 1rem;
+}
