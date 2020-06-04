@@ -85,12 +85,17 @@ body {
 
   .nav-pills .nav-link.active{
     background-color: #e5bba7!important;
+    
   }
 
   .nav-pills .nav-link{
     color:white;
     font-family: 'Raleway';
     font-weight: 600;
+    margin-top: 100px;
   }
   
+  .question-answer{
+    font-size: 1.2em;
+  }
 
