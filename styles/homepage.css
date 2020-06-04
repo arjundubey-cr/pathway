@@ -208,3 +208,15 @@ a:hover{
 .firstline ul li{
   padding: 1rem;
 }
+
+hr{
+  margin-bottom: 0px;
+}
+
+.contact-info{
+  margin: 5px;
+}
+.contact-info a{
+  margin-right: 5px;
+  margin-left: 3px;
+}
