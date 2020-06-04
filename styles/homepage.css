@@ -214,7 +214,8 @@ hr{
 }
 
 .contact-info{
-  margin: 5px;
+  display: inline-flex;
+  margin-top: 20px;
 }
 .contact-info a{
   margin-right: 5px;
