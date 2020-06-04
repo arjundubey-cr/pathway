@@ -62,7 +62,7 @@ body {
   }
 
   .subheading-answer{
-    border-bottom: 3px solid #abbaab;
+    margin-bottom: 50px;
   }
 
   .learning-resources{
@@ -70,5 +70,5 @@ body {
   }
 
   .resource-heading{
-    margin-top: 20px;
+    margin-top: 0px;
   }
