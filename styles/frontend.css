@@ -8,6 +8,7 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Lato', sans-serif;
   padding: 0;
 }
 html,
@@ -60,7 +61,7 @@ body {
     border-bottom: 3px solid #abbaab;
   }
 
-  .frontend-heading{
+  .page-heading{
     display: block;
     text-align: center;
     font-size: 4em;
@@ -90,11 +91,12 @@ body {
 
   .nav-pills .nav-link.active{
     background-color: #e5bba7!important;
+    color: #214c39!important;
     
   }
 
   .nav-pills .nav-link{
-    color:white;
+    color: #214c39;
     font-family: 'Raleway';
     font-weight: 600;
     margin-top: 100px;
@@ -107,4 +109,3 @@ body {
   .resource-subheading{
     font-family: 'Josefin Sans', sans-serif;
   }
-

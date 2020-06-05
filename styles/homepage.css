@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Roboto|Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -13,6 +16,7 @@ body {
   margin: 0;
   height: 100%;
   line-height: 1.4;
+  font-family: 'Lato', sans-serif;
   width: 100%;
   padding: 0;
   background: #abbaab;  /* fallback for old browsers */
@@ -91,7 +95,7 @@ h1 {
 }
 .section-heading{
   display: block;
-  margin: 10px 0 10px 0;
+  margin: 50px 0 10px 0;
   padding: 0px;
 }
 a:hover{
@@ -224,4 +228,8 @@ hr{
 
 footer{
   margin-bottom: 40px;
+}
+
+.card-title{
+  font-family: 'Josefin Sans', sans-serif;
 }
