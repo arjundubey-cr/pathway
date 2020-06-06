@@ -233,3 +233,14 @@ footer{
 .card-title{
   font-family: 'Josefin Sans', sans-serif;
 }
+
+.logo{
+  height: 20px;
+  width: 20px;
+}
+
+.credit{
+  margin-top: 10px;
+  display: block;
+  font-size: 0.75em;
+}
