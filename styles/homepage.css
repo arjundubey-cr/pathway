@@ -198,62 +198,6 @@ a:hover{
       }
 }
 
-.left-footer-description {
-  max-width: 400px;
-}
-
-.firstline ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.firstline {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.firstline ul li {
-  padding: 1rem;
-}
-
-hr {
-  margin-bottom: 0px;
-}
-
-.contact-info {
-  display: inline-flex;
-  margin-top: 20px;
-}
-.contact-info a {
-  margin-right: 5px;
-  margin-left: 3px;
-}
-
-footer {
-  margin-bottom: 50px;
-}
-
-.logo {
-  height: 20px;
-  width: 20px;
-}
-
-.credit {
-  margin-top: 10px;
-  display: block;
-  font-size: 0.60em;
-}
-.contact-info{
-  display: flex;
-}
-.contact-info .github{
-  margin-left: 100px;
-}
-
-
 .disabled{
   pointer-events: none;
   cursor: default;
