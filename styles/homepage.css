@@ -133,6 +133,12 @@ a:hover{
   border-radius: 20px;
 }
 
+@media only screen and (max-width: 400px)
+{
+  .firstline ul {
+    flex-direction: column;
+  }
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .home-page-heading{
@@ -192,55 +198,63 @@ a:hover{
       }
 }
 
-.left-footer-description{
+.left-footer-description {
   max-width: 400px;
 }
 
-.firstline ul{
+.firstline ul {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.firstline{
+.firstline {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.firstline ul li{
+.firstline ul li {
   padding: 1rem;
 }
 
-hr{
+hr {
   margin-bottom: 0px;
 }
 
-.contact-info{
+.contact-info {
   display: inline-flex;
   margin-top: 20px;
 }
-.contact-info a{
+.contact-info a {
   margin-right: 5px;
   margin-left: 3px;
 }
 
-footer{
-  margin-bottom: 40px;
+footer {
+  margin-bottom: 50px;
 }
 
-.card-title{
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-.logo{
+.logo {
   height: 20px;
   width: 20px;
 }
 
-.credit{
+.credit {
   margin-top: 10px;
   display: block;
-  font-size: 0.75em;
+  font-size: 0.60em;
+}
+.contact-info{
+  display: flex;
+}
+.contact-info .github{
+  margin-left: 100px;
+}
+
+
+.disabled{
+  pointer-events: none;
+  cursor: default;
 }
