@@ -7,11 +7,12 @@
   padding: 0;
 }
 
-html, body{
-    padding: 0;
-    margin: 0 auto;
-    background-image: url(../images/undercons.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+html,
+body {
+  padding: 0;
+  margin: 0 auto;
+  background-image: url(../images/undercons.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
